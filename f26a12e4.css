@@ -1,0 +1,21 @@
+@import url("reset.css");
+
+:root {
+  --theme-bg: #ffffff;
+  --theme-primary: #d21b1d;
+  --theme-primary-text: #b90000;
+
+  --theme-on-bg: #000000;
+  --theme-on-primary: #ffffff;
+}
+
+h1 {
+  color: var(--theme-primary-text);
+}
+
+.under_construction {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
