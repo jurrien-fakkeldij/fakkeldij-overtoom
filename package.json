@@ -18,5 +18,8 @@
     "@rocket/engine": "^0.2.0",
     "lit": "^2.3.0"
   },
+  "optionalDependencies": {
+    "@parcel/watcher-linux-x64-glibc": "2.3.0"
+  },
   "@rocket/template-name": "Minimal Starter"
 }
