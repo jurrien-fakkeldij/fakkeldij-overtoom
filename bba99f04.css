@@ -1,0 +1,57 @@
+@import url("reset.css");
+
+:root {
+  --theme-white: #cdcbd6;
+  --theme-primary: #d96846;
+  --theme-secondary: #596235;
+  --theme-black: #2f3020;
+
+  --theme-bg: var(--theme-white);
+  --theme-primary-text: var(--theme-black);
+
+  --theme-dark-bg: var(--theme-black);
+  --theme-dark-text: var(--theme-primary);
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-VariableFont_wght.woff2")
+      format("woff2 supports variations"),
+    url("../fonts/Manrope-VariableFont_wght.woff2") format("woff2-variations");
+  font-weight: 1 999;
+  font-display: optional;
+}
+
+* {
+  background: var(--theme-bg);
+  font-family: "Manrope";
+}
+
+h1 {
+  color: var(--theme-primary-text);
+}
+
+.header {
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+.under_construction {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+
+  font-size: 40px;
+  font-weight: 800;
+  text-shadow: 10px 10px 10px var(--theme-secondary);
+}
+
+.footer {
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
